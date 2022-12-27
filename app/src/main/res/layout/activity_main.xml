@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOut"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="默认信息"
+        android:id="@+id/editText"/>
+
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_height="wrap_content"
+        android:text="启动服务"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_height="wrap_content"
+        android:text="停止服务"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnBindService"
+        android:layout_height="wrap_content"
+        android:text="绑定服务"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnUnbindService"
+        android:layout_height="wrap_content"
+        android:text="解除绑定服务"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSyncData"
+        android:layout_height="wrap_content"
+        android:text="同步数据"
+        android:layout_width="wrap_content"/>
+        
+
+</LinearLayout>
